@@ -16,7 +16,8 @@ nombre_etiquette_grise = int(input("Entrée le nombre d'étiquette grisse : "))
 
 # Vérifier si l'utilsateur n'aurait pas entré des nombre négatif
 if nombre_etiquette_blanche < 0 or nombre_etiquette_grise < 0:
-  print("Vous ne pouvez pas entrée de nombre négatif. Le programme va maintenant quitté.")
+  print("Vous ne pouvez pas entrée de nombre négatif. Le programme va maintenant quitté. Tapez sur entrer.")
+  input()
   quit()
 
 # Récolter l'informaion par rapport au shipping
