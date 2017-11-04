@@ -11,7 +11,7 @@ while nb < 0:
   if nb < 0:
     print("Vous avez entrer un nombre negatif")
 
-# La somme effectuer par une boucle
+# La somme effectué par une boucle
 for i in range(1, nb+1):
   somme = somme + i
  
