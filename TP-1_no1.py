@@ -13,7 +13,7 @@ nombre_etiquette_blanche = int(input("Entrée le nombre d'étiquette blanche : "
 nombre_etiquette_grise = int(input("Entrée le nombre d'étiquette grisse : "))
 
 # Vérifier si l'utilsateur à rentrée des données valide.
-if nombre_etiquette_blanche > 0 or nombre_etiquette_grise > 0:
+if nombre_etiquette_blanche > 0 and nombre_etiquette_grise > 0:
   # Récolter l'informaion par rapport au shipping
   while livraison != "n" and livraison != "o":
     livraison = input("Livrer les étiquettes? (o/n): ")
