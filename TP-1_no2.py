@@ -12,7 +12,7 @@ while nb < 0:
     print("Vous avez entrer un nombre negatif")
 
 # La somme effectué par une boucle
-for i in range(1, nb+1):
+for i in range(0, nb):
   somme = somme + i
  
 print("La somme est : " + str(somme))
