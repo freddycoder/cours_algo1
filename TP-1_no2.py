@@ -14,6 +14,7 @@ while nb <= 0:
 # La somme effectuer par une boucle
 for i in range(1, nb+1):
   somme = somme + i
+ 
 print("La somme est : " + str(somme))
 
 # La somme produit par une équation rapide à résoudre pour le processeur
