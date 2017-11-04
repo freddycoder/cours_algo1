@@ -18,8 +18,8 @@ if nombre_etiquette_blanche > 0 and nombre_etiquette_grise > 0:
   while livraison != "n" and livraison != "o":
     livraison = input("Livrer les étiquettes? (o/n): ")
   # Calculer le sous-total et le total
-  nb_etiquette_total = nombre_etiquette_blanche + nombre_etiquette_grise
   if livraison == True:
+    nb_etiquette_total = nombre_etiquette_blanche + nombre_etiquette_grise
     sous_total = nombre_etiquette_blanche * prix_etiquette_blanche + nombre_etiquette_grise * prix_etiquette_grise + prix_de_livraison * nb_etiquette_total
   else:
     sous_total = nombre_etiquette_blanche * prix_etiquette_blanche + nombre_etiquette_grise * prix_etiquette_grise
