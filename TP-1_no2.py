@@ -18,6 +18,6 @@ for i in range(0, nb):
 print("La somme est : " + str(somme))
 
 # La somme produit par une équation rapide à résoudre pour le processeur
-print("La somme est : " + str(int(nb*(nb+1)/2)))
+print("La somme est : " + str(nb*(nb+1)/2))
 
 input("Tapez enter pour quitter")
